@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "label": "v7.0.17",
+  "label": "v7.0.18",
   "profile_sha256": {
-    "LoonKit.lcf": "3a11186561142bfcf2e1103d49132875e33b01f91819d02db0652efc4f2e61b0"
+    "LoonKit.lcf": "bbee48cca97b4f1c9d42cd90ff3877ea7a4a238aa035eb89c6aae40ba1147a4a"
   },
-  "runtime_directives_sha256": "682e6c6b9ddb5d48ad0e288956e10800509833c3dde5d4187309801833d2a9c6",
+  "runtime_directives_sha256": "cef05e8232968a832da04a9a46b872228e03939ce208c3ea6fa9c10c8bf20032",
   "remote_subscription_count": 45,
-  "remote_rule_count": 196820,
-  "runtime_rule_matcher_count": 196820,
+  "remote_rule_count": 196871,
+  "runtime_rule_matcher_count": 196871,
   "runtime_resources": [
     {
       "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/90659c20351c37fe505d7db18896baf0aeb8f59d/rules/releases/v7.0.13/AdBlockBalanced.lsr",
@@ -440,14 +440,14 @@
       "matcher_count": 246
     },
     {
-      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/rules/releases/v7.0.17/HKBroker.lsr",
-      "commit": "fd6f631576e659cdd4e4a2734827b7d8f47c79d7",
-      "path": "rules/releases/v7.0.17/HKBroker.lsr",
+      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/814679745a5e8eac1c0e41fb89eeee006b09f1da/rules/releases/v7.0.18/HKBroker.lsr",
+      "commit": "814679745a5e8eac1c0e41fb89eeee006b09f1da",
+      "path": "rules/releases/v7.0.18/HKBroker.lsr",
       "policy": "HKBroker",
       "tag": "Our-HKBroker",
       "enabled": "true",
-      "sha256": "550498a5a06e02a6b61d4403f6336843a9c2cabb6d83606f61a81f6cd39257d2",
-      "matcher_count": 23
+      "sha256": "1af65f321f32dbd763c443cded16835dedb0a5c64cf3d2e53d25a716d023f6db",
+      "matcher_count": 74
     },
     {
       "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/ChinaDirect.lsr",
@@ -635,7 +635,7 @@
     "Google": 681,
     "Microsoft": 645,
     "Paypal": 246,
-    "HKBroker": 23,
+    "HKBroker": 74,
     "ChinaDirect": 114705
   },
   "plugin_path": "release/Network_Diagnostics.plugin",
@@ -737,7 +737,7 @@
     "channel": "stable"
   },
   "previous_release": {
-    "version": "v7.0.16",
-    "profile_sha256": "9f41e86fd329c981c50920c43ce2bb5ab6a89c9b0f654cb7efaa17e2ab586267"
+    "version": "v7.0.17",
+    "profile_sha256": "3a11186561142bfcf2e1103d49132875e33b01f91819d02db0652efc4f2e61b0"
   }
 }

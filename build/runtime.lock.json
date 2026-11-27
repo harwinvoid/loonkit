@@ -714,20 +714,20 @@
       "sha256": "500008a99958774231b73ffd217493f67b5bb2cc692da41c0c9071bf4b5c54bd"
     },
     {
+      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/814679745a5e8eac1c0e41fb89eeee006b09f1da/rules/releases/v7.0.18/HKBroker.lsr",
+      "commit": "814679745a5e8eac1c0e41fb89eeee006b09f1da",
+      "path": "rules/releases/v7.0.18/HKBroker.lsr",
+      "kind": "rule",
+      "local_path": "rules/releases/v7.0.18/HKBroker.lsr",
+      "sha256": "1af65f321f32dbd763c443cded16835dedb0a5c64cf3d2e53d25a716d023f6db"
+    },
+    {
       "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/icons/HKBroker.png",
       "commit": "fd6f631576e659cdd4e4a2734827b7d8f47c79d7",
       "path": "icons/HKBroker.png",
       "kind": "icon",
       "local_path": "icons/HKBroker.png",
       "sha256": "e8254130c502bf9c28384ed4c29e226a1d08568fa81c93b89d5c77c30f191fa1"
-    },
-    {
-      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/rules/releases/v7.0.17/HKBroker.lsr",
-      "commit": "fd6f631576e659cdd4e4a2734827b7d8f47c79d7",
-      "path": "rules/releases/v7.0.17/HKBroker.lsr",
-      "kind": "rule",
-      "local_path": "rules/releases/v7.0.17/HKBroker.lsr",
-      "sha256": "550498a5a06e02a6b61d4403f6336843a9c2cabb6d83606f61a81f6cd39257d2"
     }
   ]
 }

@@ -795,7 +795,7 @@
       "source_group": "Paypal"
     },
     {
-      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/rules/releases/v7.0.17/HKBroker.lsr",
+      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/814679745a5e8eac1c0e41fb89eeee006b09f1da/rules/releases/v7.0.18/HKBroker.lsr",
       "policy": "HKBroker",
       "tag": "Our-HKBroker",
       "source_group": "HKBroker"
