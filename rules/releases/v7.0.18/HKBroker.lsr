@@ -1,0 +1,95 @@
+# LoonKit v7.0.18 HKBroker · self-maintained immutable Loon remote-rule subscription
+# Hong Kong retail brokers: Futu / moomoo, Longbridge / LongPort, Tiger Brokers,
+# uSMART Securities, Valuable Capital (VBrokers / 华盛通) and Bright Smart.
+# Aggregated from broker-owned sites and community rule sets
+# (v2fly/domain-list-community, blackmatrix7 ios_rule_script, forecho/broker-rules,
+# HK broker lists), then re-checked against DoH/HTTP on 2026-11-27.
+# Parked, expired and shared third-party roots are excluded.
+# No keyword rules and no policy in this resource.
+# License: GPL-2.0-only; see rules/LICENSE.GPL-2.0 and docs/THIRD_PARTY_NOTICES.md
+
+# Futu / 富途 / moomoo
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futu8.com
+DOMAIN-SUFFIX,futuau.com
+DOMAIN-SUFFIX,futubull.com
+DOMAIN-SUFFIX,futuchain.com
+DOMAIN-SUFFIX,ftesop.com
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuhk1.com
+DOMAIN-SUFFIX,futuhk2.com
+DOMAIN-SUFFIX,futuhkapp.com
+DOMAIN-SUFFIX,futuhongkong.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futuie.com
+DOMAIN-SUFFIX,futuniuniu.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futuoa.com
+DOMAIN-SUFFIX,futusg.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,fututrust.com
+DOMAIN-SUFFIX,fututrustee.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomooapp.com
+DOMAIN-SUFFIX,moomoobull.com
+DOMAIN-SUFFIX,moomoocn.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com
+
+# Longbridge / 长桥 / LongPort
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longbridge.cn
+DOMAIN-SUFFIX,longbridge.cloud
+DOMAIN-SUFFIX,longbridge.com.hk
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longportwhale.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,wbrks.com
+
+# Tiger Brokers / 老虎国际
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,itigergrowtha.com
+DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,xiaohu8.com
+DOMAIN-SUFFIX,tigerbbs.cn
+DOMAIN-SUFFIX,tigerbbs.com
+DOMAIN-SUFFIX,skytigris.cn
+DOMAIN-SUFFIX,tigr.link
+DOMAIN-SUFFIX,ftfast.com
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.com.hk
+DOMAIN-SUFFIX,tigerbrokers.net
+DOMAIN-SUFFIX,tigerbrokers.nz
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tigeropen.com
+
+# uSMART / 盈立证券
+DOMAIN-SUFFIX,usmart.hk
+DOMAIN-SUFFIX,usmartglobal.com
+DOMAIN-SUFFIX,usmartgroup.com
+DOMAIN-SUFFIX,usmartsecurities.com
+DOMAIN-SUFFIX,usmart.sg
+DOMAIN-SUFFIX,usmart-app.com
+DOMAIN-SUFFIX,usmart66.com
+
+# Valuable Capital / 华盛证券 / 华盛通 / VBrokers
+DOMAIN-SUFFIX,valuable.com.hk
+DOMAIN-SUFFIX,vbkr.com
+DOMAIN-SUFFIX,hstong.com
+
+# Bright Smart / 耀才证券
+DOMAIN-SUFFIX,brightsmart.com.hk
+DOMAIN-SUFFIX,bsgroup.com.hk
