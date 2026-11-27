@@ -6,7 +6,7 @@ LoonKit 根据本地规则与远程规则，将请求交给对应策略组。生
 
 - **本地显式域名**：例如 `raw.githubusercontent.com` 命中 `Proxy`，TRAE 的指定海外 API 命中 `AI`；Copilot 相关请求由本地规则显式交给 AI。加密货币域名不再内嵌于本地规则。
 - **远程分类订阅**：45 份固定规则按当前配置声明的顺序，将国内常用服务、AI、视频、社交、广告与共享基础设施分别指向 `DIRECT`、服务策略组、`AdBlock` 或 `Proxy`。Crypto 的独立订阅置于广告拦截之后、国内直连之前，包含 219 条 Loon 原生域名规则，不含宽泛关键词。
-- **港股券商**：`HKBroker` 的独立订阅覆盖富途、长桥、老虎、华盛、盈立与耀才共 74 条域名后缀，含各券商 App、行情与交易接口域名，默认走 `Proxy`，可在组内改选 `DIRECT`；已剔除停放、过期与他人共用的第三方根域，不含关键词。
+- **港股券商**：`HKBroker` 的独立订阅覆盖富途、长桥、老虎、华盛、盈立与耀才共 74 条域名后缀，并补充 44 条海外 IP 段（香港、新加坡、日本、美国），用于 App 直连原始 IP 的行情与交易服务器；全部 `no-resolve`，不会为域名解析触发 IP 匹配。境内 IP 段不收录，继续由 `GEOIP,CN,DIRECT` 处理。默认走 `Proxy`，可在组内改选 `DIRECT`。
 - **补充服务分流**：夸克（quark.cn、myquark.cn）及子域名直连，维基百科与 Wikimedia 相关域名、多邻国国际站（duolingo.com）走代理。它们分别归入原有的 DomesticSupplement 与 SharedInfrastructure 远程订阅，没有新增独立规则库或策略组，也没有模糊关键词；多邻国中国站不在国际规则范围内。
 - **兜底**：`GEOIP,CN,DIRECT,no-resolve` 处理已有目标 IP 可以判断为 CN 的请求；其余落入 `FINAL,Final`。`no-resolve` 不应被解释为可以识别所有国内域名。
 - **优先级注意**：更具体的服务资源与通用资源之间存在覆盖关系。当前规则对 GitHub Copilot、YouTube、Speedtest 等范围进行了有意划分；不能只看最终 `Final` 组来推断所有命中结果。
