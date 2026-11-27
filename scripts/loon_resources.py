@@ -4,7 +4,8 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-URI = re.compile(r"https://raw\.githubusercontent\.com/YohakuSama/loonkit/(?P<sha>[a-f0-9]{40})/(?P<path>[A-Za-z0-9_./-]+)\Z")
+# Upstream and this fork host reviewed immutable assets.
+URI = re.compile(r"https://raw\.githubusercontent\.com/(?:YohakuSama|harwinvoid)/loonkit/(?P<sha>[a-f0-9]{40})/(?P<path>[A-Za-z0-9_./-]+)\Z")
 
 
 def pinned_uri(uri: str) -> dict:

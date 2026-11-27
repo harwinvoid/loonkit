@@ -1,0 +1,28 @@
+# LoonKit v7.0.17 HKBroker · self-maintained immutable Loon remote-rule subscription
+# Hong Kong retail brokers: Futu, Longbridge, Tiger Brokers, Valuable Capital,
+# uSMART Securities and Bright Smart Securities.
+# Domains verified against each broker's public site on 2026-11-27.
+# No keyword rules and no policy in this resource; see rules/LICENSE.GPL-2.0.
+DOMAIN-SUFFIX,brightsmart.com.hk
+DOMAIN-SUFFIX,bsgroup.com.hk
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.com.hk
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tigeropen.com
+DOMAIN-SUFFIX,usmart.hk
+DOMAIN-SUFFIX,usmartglobal.com
+DOMAIN-SUFFIX,usmartgroup.com
+DOMAIN-SUFFIX,valuable.com.hk
