@@ -1,4 +1,4 @@
-# LoonKit v7.0.16
+# LoonKit v7.0.17
 
 [General]
 dns-server = 223.5.5.5,223.6.6.6
@@ -49,6 +49,7 @@ Cloudflare = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubu
 Speedtest = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Speedtest.png
 Crypto = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/a9d4e9dc22f573d3f2a4ccd3776441d007f1e686/icons/Crypto.png
 Paypal = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Paypal.png
+HKBroker = select,Proxy,Auto,Fallback,DIRECT,ALL_Filter,img-url = https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/icons/HKBroker.png
 YouTube = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/YouTube.png
 Netflix = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Netflix.png
 Disney = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Disney.png
@@ -117,6 +118,7 @@ https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dc
 https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Microsoft.lsr, policy=Microsoft, tag=Our-Microsoft, enabled=true
 https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Steam.lsr, policy=Steam, tag=Our-Steam, enabled=true
 https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Paypal.lsr, policy=Paypal, tag=Our-Paypal, enabled=true
+https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/rules/releases/v7.0.17/HKBroker.lsr, policy=HKBroker, tag=Our-HKBroker, enabled=true
 https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/ChinaDirect.lsr, policy=DIRECT, tag=Our-ChinaDirect-Scoped, enabled=true
 
 [Host]

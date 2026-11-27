@@ -30,7 +30,7 @@ class Issue186RoutingTests(unittest.TestCase):
         cls.remote = cls.model["remote_rules"]
 
     def test_existing_subscription_types_reused_without_new_local_rules(self):
-        self.assertEqual(len(self.remote), 44)
+        self.assertEqual(len(self.remote), 45)
         self.assertEqual([r["source_group"] for r in self.remote[:2]], ["AdBlock", "Crypto"])
         self.assertEqual(self.remote[-1]["source_group"], "ChinaDirect")
         self.assertFalse(any(r["source_group"] in {"QuarkDirect", "WikipediaDuolingo"}

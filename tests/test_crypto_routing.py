@@ -51,9 +51,9 @@ class CryptoRoutingTests(unittest.TestCase):
         names = [g["name"] for g in groups]
         self.assertEqual(len(names), len(set(names)))
         self.assertEqual(names[:5], ["Proxy", "Auto", "Fallback", "AdBlock", "Final"])
-        self.assertEqual(names[names.index("Speedtest") + 1:names.index("Speedtest") + 3],
-                         ["Crypto", "Paypal"])
-        self.assertEqual(names[names.index("Paypal") + 1], "YouTube")
+        self.assertEqual(names[names.index("Speedtest") + 1:names.index("Speedtest") + 4],
+                         ["Crypto", "Paypal", "HKBroker"])
+        self.assertEqual(names[names.index("HKBroker") + 1], "YouTube")
         crypto, = (g for g in groups if g["name"] == "Crypto")
         self.assertRegex(crypto["icon"], r"/[a-f0-9]{40}/icons/Crypto[.]png$")
         self.assertNotEqual(crypto["icon"], groups[0]["icon"])
@@ -71,7 +71,7 @@ class CryptoRoutingTests(unittest.TestCase):
         self.assertFalse(any(r["policy"] == "Crypto" for r in self.model["rules"]))
         self.assertFalse(any(",Crypto" in line for line in self.router.sections["Rule"]))
         remote = self.model["remote_rules"]
-        self.assertEqual(len(remote), 44)
+        self.assertEqual(len(remote), 45)
         self.assertEqual([r["source_group"] for r in remote[:2]], ["AdBlock", "Crypto"])
         self.assertEqual(remote[-1]["source_group"], "ChinaDirect")
         self.assertEqual(self.remote["tag"], "Our-Crypto")

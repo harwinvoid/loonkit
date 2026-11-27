@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fraw.githubusercontent.com%2FYohakuSama%2Floonkit%2Fmain%2FLoonKit.lcf">
+  <a href="https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fraw.githubusercontent.com%2Fharwinvoid%2Floonkit%2Fmain%2FLoonKit.lcf">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/readme-cta-dark.svg" />
       <img src="./docs/assets/readme-cta-light.svg" alt="一键导入 Loon" width="214" height="48" />
@@ -30,18 +30,18 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/YohakuSama/loonkit/main/LoonKit.lcf">获取配置地址</a> ·
+  <a href="https://raw.githubusercontent.com/harwinvoid/loonkit/main/LoonKit.lcf">获取配置地址</a> ·
   <a href="#快速开始">快速开始</a> ·
   <a href="./docs/SETUP_GUIDE.md">首次导入</a>
 </p>
 
-当前版本：**v7.0.16** · [更新记录](./docs/CHANGELOG.md) · [Production CI](https://github.com/YohakuSama/loonkit/actions/workflows/ci.yml) · [GPL-2.0-only](./LICENSE)
+当前版本：**v7.0.17** · [更新记录](./docs/CHANGELOG.md) · [Production CI](https://github.com/harwinvoid/loonkit/actions/workflows/ci.yml) · [GPL-2.0-only](./LICENSE)
 
 ---
 
 ## 功能概览
 
-**服务分流** — 基础选路、AI、开发与平台、金融（`Crypto` / `Paypal`）、流媒体、社交及游戏策略按用途排序。国内常用服务优先直连；`Crypto` 由独立、固定提交的远程规则订阅提供 219 条精确匹配，默认走代理并优先于国内直连；广告拦截仍保留在它之前。AI、开发平台、流媒体与社交服务按需选路。
+**服务分流** — 基础选路、AI、开发与平台、金融（`Crypto` / `Paypal` / `HKBroker`）、流媒体、社交及游戏策略按用途排序。国内常用服务优先直连；`Crypto` 由独立、固定提交的远程规则订阅提供 219 条精确匹配，默认走代理并优先于国内直连；`HKBroker` 以同一方式覆盖富途、长桥、老虎、华盛、盈立与耀才，默认走代理、可改选直连；广告拦截仍保留在它们之前。AI、开发平台、流媒体与社交服务按需选路。
 
 **常用网站补全** — 夸克网盘默认直连，维基百科和多邻国国际站默认走代理。已有广告拦截和其他分流设置不变。
 
@@ -52,14 +52,14 @@
 ## 快速开始
 
 1. **备份**：首次导入前，先导出现有配置并保存节点订阅。
-2. **导入**：在 iPhone / iPad 的 Safari 中点击顶部「一键导入 Loon」；若未唤起 App，可在 **配置 → 所有配置文件 → ＋ → 从链接导入** 中粘贴[配置地址](https://raw.githubusercontent.com/YohakuSama/loonkit/main/LoonKit.lcf)。
+2. **导入**：在 iPhone / iPad 的 Safari 中点击顶部「一键导入 Loon」；若未唤起 App，可在 **配置 → 所有配置文件 → ＋ → 从链接导入** 中粘贴[配置地址](https://raw.githubusercontent.com/harwinvoid/loonkit/main/LoonKit.lcf)。
 3. **配置线路**：应用 `LoonKit.lcf`，再添加自己的节点或订阅，在 `Proxy` 与各服务策略组中选路。
 4. **更新**：需要托管更新时可开启「托管」并设置频率；日常更新建议关闭「全覆盖更新」。
 
 > [!IMPORTANT]
 > 主配置的 `[Proxy]` 和 `[Remote Proxy]` 默认不包含个人节点。**「全覆盖更新」可能替换现有节点、订阅及本地设置。** 只有完成备份、确认接受覆盖后果时，才在首次完整部署中使用。
 
-[详细导入步骤](./docs/SETUP_GUIDE.md) · [托管与更新选项](./docs/LOON_APP_SETTINGS.md) · macOS 请在 Loon for Mac 内从 [配置地址](https://raw.githubusercontent.com/YohakuSama/loonkit/main/LoonKit.lcf) 导入
+[详细导入步骤](./docs/SETUP_GUIDE.md) · [托管与更新选项](./docs/LOON_APP_SETTINGS.md) · macOS 请在 Loon for Mac 内从 [配置地址](https://raw.githubusercontent.com/harwinvoid/loonkit/main/LoonKit.lcf) 导入
 
 ## 使用与排查
 
@@ -83,7 +83,7 @@
 <details>
 <summary><strong>点击导入后没有打开 Loon？</strong></summary>
 
-请确认设备已安装 Loon，并用 Safari 打开页面。也可以在「配置 → 所有配置文件 → ＋ → 从链接导入」中手动粘贴[配置地址](https://raw.githubusercontent.com/YohakuSama/loonkit/main/LoonKit.lcf)。参见 [Loon 官方 URL Scheme](https://nsloon.app/docs/Scheme/)。
+请确认设备已安装 Loon，并用 Safari 打开页面。也可以在「配置 → 所有配置文件 → ＋ → 从链接导入」中手动粘贴[配置地址](https://raw.githubusercontent.com/harwinvoid/loonkit/main/LoonKit.lcf)。参见 [Loon 官方 URL Scheme](https://nsloon.app/docs/Scheme/)。
 
 </details>
 
@@ -97,7 +97,7 @@ LoonKit 不内置个人节点。请添加自己的节点订阅，并检查 `Prox
 <details>
 <summary><strong>节点能连接，但诊断偶尔失败？</strong></summary>
 
-首次握手、DNS/TLS 连接、临时网络波动等因素都可能影响结果。建议在同一节点复测，并结合请求记录与脚本日志排查。如需提交 [Issue](https://github.com/YohakuSama/loonkit/issues)，请先移除节点密钥和私人订阅链接。
+首次握手、DNS/TLS 连接、临时网络波动等因素都可能影响结果。建议在同一节点复测，并结合请求记录与脚本日志排查。如需提交 [Issue](https://github.com/harwinvoid/loonkit/issues)，请先移除节点密钥和私人订阅链接。
 
 </details>
 
@@ -109,6 +109,6 @@ LoonKit 不内置个人节点。请添加自己的节点订阅，并检查 `Prox
 
 **规则与诊断** · [规则命中与策略归属](./rules/README.md) · [诊断结果解读](./docs/NETWORK_DIAGNOSTICS.md) · [插件定义文件](./release/Network_Diagnostics.plugin) · [诊断公共源码](./src/diagnostics/common.js)
 
-**项目维护** · [历史变更记录](./docs/CHANGELOG.md) · [当前版发布说明](./docs/RELEASE_NOTES_v7.0.16.md) · [当前版 SHA256](./docs/RELEASE_CHECKSUM_v7.0.16.md) · [构建、校验与发布流程](./docs/MAINTAINING.md)
+**项目维护** · [历史变更记录](./docs/CHANGELOG.md) · [当前版发布说明](./docs/RELEASE_NOTES_v7.0.17.md) · [当前版 SHA256](./docs/RELEASE_CHECKSUM_v7.0.17.md) · [构建、校验与发布流程](./docs/MAINTAINING.md)
 
-<sub>[Issues](https://github.com/YohakuSama/loonkit/issues) · [Security](./SECURITY.md) · [Third-party notices](./docs/THIRD_PARTY_NOTICES.md) · [GPL-2.0-only](./LICENSE)</sub>
+<sub>[Issues](https://github.com/harwinvoid/loonkit/issues) · [Security](./SECURITY.md) · [Third-party notices](./docs/THIRD_PARTY_NOTICES.md) · [GPL-2.0-only](./LICENSE)</sub>

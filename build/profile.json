@@ -243,6 +243,19 @@
       "icon": "https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Paypal.png"
     },
     {
+      "name": "HKBroker",
+      "type": "select",
+      "members": [
+        "Proxy",
+        "Auto",
+        "Fallback",
+        "DIRECT",
+        "ALL_Filter"
+      ],
+      "options": {},
+      "icon": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/icons/HKBroker.png"
+    },
+    {
       "name": "YouTube",
       "type": "select",
       "members": [
@@ -780,6 +793,12 @@
       "policy": "Paypal",
       "tag": "Our-Paypal",
       "source_group": "Paypal"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/harwinvoid/loonkit/fd6f631576e659cdd4e4a2734827b7d8f47c79d7/rules/releases/v7.0.17/HKBroker.lsr",
+      "policy": "HKBroker",
+      "tag": "Our-HKBroker",
+      "source_group": "HKBroker"
     },
     {
       "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/ChinaDirect.lsr",

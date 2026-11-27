@@ -8,8 +8,8 @@
 
 ## 2. 导入并应用配置
 
-1. 在 iPhone / iPad 的 Safari 打开 [LoonKit 一键导入](https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fraw.githubusercontent.com%2FYohakuSama%2Floonkit%2Fmain%2FLoonKit.lcf)。未唤起 App 时，进入 **配置 → 所有配置文件 → 右上角 ＋ → 从链接导入**。
-2. 手动导入请填入 [正式配置地址](https://raw.githubusercontent.com/YohakuSama/loonkit/main/LoonKit.lcf)，核对文件名后**应用**该配置。
+1. 在 iPhone / iPad 的 Safari 打开 [LoonKit 一键导入](https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fraw.githubusercontent.com%2Fharwinvoid%2Floonkit%2Fmain%2FLoonKit.lcf)。未唤起 App 时，进入 **配置 → 所有配置文件 → 右上角 ＋ → 从链接导入**。
+2. 手动导入请填入 [正式配置地址](https://raw.githubusercontent.com/harwinvoid/loonkit/main/LoonKit.lcf)，核对文件名后**应用**该配置。
 3. 是否开启「托管」由使用需求决定；**不要为了导入成功就开启「全覆盖更新」**。它可能替换已有节点、订阅及本地设置。各开关的作用和后续维护方法请看[配置托管](./LOON_APP_SETTINGS.md)。
 
 ## 3. 添加节点并完成选路
